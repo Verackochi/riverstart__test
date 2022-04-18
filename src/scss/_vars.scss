@@ -1,0 +1,71 @@
+/*фоновый цвет*/
+$bg-color: #F4F5F6;
+
+/*цвета перемене*/
+$color-red: #FF5762;
+$color-blue: #415DE8;
+$color-gray:#7B829A;
+
+/*цвета class*/
+.--color-red {
+    color:#FF5762;
+}
+.--color-blue {
+    color: #415DE8;
+} 
+.--color-gray {
+    color:#7B829A;
+}
+/*стили для текста*/
+
+.--metapolis-b36 {
+    font-family: 'Metropolis';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.--metapolis-b24 {
+    font-family: 'Metropolis';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.--metapolis-b20 {
+    font-family: 'Metropolis';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.--metapolis-b16 {
+    font-family: 'Metropolis';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.--metapolis-b12 {
+    font-family: 'Metropolis';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.--lato-b18 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.--lato-r18 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.--lato-r16 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.--lato-r12 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+

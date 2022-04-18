@@ -1,0 +1,52 @@
+/*контейнер*/
+.aside {
+    float: left;
+}
+.container-aside {
+    width: 240px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+}
+
+/*заголовки*/
+.title-personal,
+.title-tesla {
+    color: #7B829A;
+    text-transform: uppercase;
+}
+
+.title-tesla {
+    margin-top: 40px;
+}
+
+.personal__list, .tesla-list {
+    margin-top: 18px;
+}
+
+.personal__list-item, .tesla__list-item {
+    margin-top: 24px;
+}
+
+/* состояние hover*/
+.personal__list-link:hover,
+.tesla__list-link:hover {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    border-left: 4px solid #FF5762;
+}
+
+.personal__list-link:active,
+.tesla__list-link:active {
+    color:#FF5762;
+}
+
+.personal__list-link:visited,
+.tesla__list-link:visited {
+    color:#5A009D;
+}
+
+
+
+

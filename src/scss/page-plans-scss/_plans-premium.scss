@@ -1,0 +1,57 @@
+.invoicing__new {
+    margin-top: 40px;
+}
+
+.invoicing__new-title::after {
+    content: url(../img/417.png);
+    margin-left: 8px;
+}
+
+.invoicing-premium {
+    background: #F5F8FF;
+    border-radius: 12px;
+    padding: 24px 40px;
+}
+
+.list-option {
+    margin-top: 16px;
+
+    &__item {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+
+}
+
+.list-option__item::before {
+    content: url(../img/Union.png);
+    margin-right: 15px;
+}
+
+.price {
+    text-align: right;
+    width: 170px;
+
+    &__text {
+        margin-top: 8px;
+        margin-bottom: 35px;
+    }
+}
+
+.price__upgrade {
+    color: #ffffff;
+    background:#FF5762;
+    border-radius: 8px;
+    padding: 8px 16px;  
+
+    &:hover {
+        color: #FF5762;
+        background: #ffffff;
+    }
+
+    &:active {
+        border: 2 solid #FF5762;
+    }
+}
+

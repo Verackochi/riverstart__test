@@ -1,0 +1,75 @@
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+
+
+
+body {
+    background: $bg-color;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222B55;
+}
+
+
+.aside {
+    margin-left: 300px;
+}
+
+.invoicing, .info {
+    background: #Ffffff;
+    border-radius: 16px;
+    width: 784px;
+    margin-left: 570px;
+}
+
+.info {
+    margin-top: 32px;
+}
+
+.container {
+    width: 784px;
+    padding: 40px 60px;
+}
+
+.personal__list,
+.tesla__list,
+.list-option {
+    list-style: none;
+    padding: 0;
+}
+
+.personal__list-link,
+.tesla__list-link,
+.month__link,
+.year__link,
+.start__change,
+.price__upgrade {
+    text-decoration: none;
+    
+}
+
+.personal__list-link,
+.tesla__list-link {
+    color: #222B55;
+}
+
+.personal__list-link:visited,
+.tesla__list-link:visited,
+.month__link:visited,
+.year__link:visited
+.price__upgrade:visited {
+    color: #5A009D;
+}
+
+.--active-link:after {
+    content: '';
+    width: 4px;
+    height: 40px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+} 
+

@@ -1,0 +1,41 @@
+.start {
+    margin-top: 20px;
+    border-bottom: solid 1px rgba(34, 43, 85, 0.08);
+    padding-bottom: 40px;
+}
+
+.month {
+    margin-top: 20px;
+    &__text {
+        margin-right: 15px;
+    }
+}
+
+.month__link:hover,
+.start__change:hover {
+    border-bottom: dashed 1px;
+}
+
+.year {
+    
+    margin-top: 20px;
+    &__text {
+        margin-left: 16px;
+    }
+}
+
+.year__link {
+    background: #415DE8;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 6px;
+
+    &:hover {
+        background: #ffffff;
+        color: #415DE8;
+    }
+
+    &:active {
+        border: 2 solid #415DE8;
+    }
+}  
